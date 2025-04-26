@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music Is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="spotify logo.webp" alt="Spotify Logo">Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+        <h1>Best Of Arjit Sings</h1>
+
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/song1.jpg" alt="1">
+                <span class="songName">Sun Mere Humsafar</span>
+                <span class="songlistplay"><span class="timestamp">04:28 <i id="0" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>   
+            <div class="songItem">
+                <img src="covers/song2.jpg" alt="2">
+                <span class="songName">Man Mast Magan</span>
+                <span class="songlistplay"><span class="timestamp">04:40 <i id="1" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/song3.jpg" alt="3">
+                <span class="songName">Itni Si Baat Hain</span>
+                <span class="songlistplay"><span class="timestamp">04:54 <i  id="2" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/song4.jpg" alt="4">
+                <span class="songName">Soch Na Sake</span>
+                <span class="songlistplay"><span class="timestamp">04:41 <i id="3" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/song5.jpg" alt="5">
+                <span class="songName">Zaalima</span>
+                <span class="songlistplay"><span class="timestamp">04:59 <i id="4" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>  
+        </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-3x fa-solid fa-step-backward" id="previous"></i>
+            <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo" id="masterSongName">
+            <img src="playing.gif" width="70px" alt="" id="gif"><span id="masterSongName">Sun Mere Humsafar</span>
+        </div>
+        
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/627758003d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
