@@ -23,26 +23,27 @@ This project provides a clean UI and basic functionality to play, pause, and swi
 
 ## 📂 Project Structure
 Spotify/
+
 │── index.html # Main HTML file
 │── style.css # Stylesheet
 │── script.js # Functionality (play, pause, next, previous)
 │── bg-image.jpg # Background image
 │── playing.gif # Animation for playing song
 │── spotify logo.webp # App logo
-│
-├── covers/ # Album cover images
-│ ├── song1.jpg
-│ ├── song2.jpg
-│ ├── song3.jpg
-│ ├── song4.jpg
-│ └── song5.jpg
+|
+└── covers/ # Album cover images
+   └── song1.jpg
+   └── song2.jpg
+   └── song3.jpg
+   └── song4.jpg
+   └── song5.jpg
 │
 └── songs/ # Music files
-├── 1.mp3
-├── 2.mp3
-├── 3.mp3
-├── 4.mp3
-└── 5.mp3
+  └── 1.mp3
+  └── 2.mp3
+  └── 3.mp3
+  └── 4.mp3
+  └── 5.mp3
 
 
 ---
