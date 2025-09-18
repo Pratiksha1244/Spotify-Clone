@@ -55,4 +55,6 @@ This project provides a clean UI and basic functionality to play, pause, and swi
 ---
 
 ## 📷 Screenshots
+<img width="2508" height="1344" alt="img" src="https://github.com/Pratiksha1244/Spotify-Clone/blob/main/Projects/Spotify/output/img.png" />
+
 
