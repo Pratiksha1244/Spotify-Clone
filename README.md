@@ -22,7 +22,6 @@ This project provides a clean UI and basic functionality to play, pause, and swi
 ---
 
 ## 📂 Project Structure
-Spotify/
 
 │── index.html # Main HTML file
 │── style.css # Stylesheet
